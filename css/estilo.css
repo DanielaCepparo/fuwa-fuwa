@@ -112,6 +112,8 @@ h1, h2, h3, h4{
     "footer footer footer footer";
     grid-template-rows: auto;
     grid-template-columns: auto;
+    max-width: 2000px;
+    margin: 0 auto;
 }
 
 .header { 
@@ -131,11 +133,6 @@ h1, h2, h3, h4{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-
-.img_Info{
-    bottom: 130px;
-    left: 100px;
 }
 
 .imgInfo{
@@ -186,6 +183,11 @@ h1, h2, h3, h4{
 .txtProductos{
     text-align: center;
 }
+
+.txtProductos li{
+    list-style-type: none;
+}
+
 
 .producto1, .producto2{
     display: flex;
@@ -270,3 +272,5 @@ form{
     padding: 5px;
     color: #450920;
 }
+
+/* ======= RESPONSIVE ======= */
