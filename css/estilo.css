@@ -14,7 +14,7 @@ body{
     font-family: 'Klee One', cursive;
 }
 
-h1, h2, h3, h4{
+h1, h2, h3, h4, h5{
     font-family: 'Walter Turncoat', cursive;
     color: #450920;
 }
@@ -275,7 +275,7 @@ form{
 
 /* ======= RESPONSIVE ======= */
 
-@media (max-width: 500px){
+@media (max-width: 460px){
 
 .container{
     display: flex;
@@ -330,6 +330,10 @@ form{
 
 .box{
     width: 100%;
+}
+
+nav{
+    width: 460px;
 }
 
 }
