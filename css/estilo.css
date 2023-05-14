@@ -291,6 +291,7 @@ form{
     width: 70px;
     bottom: 10px;
     right: 10px;
+    position: fixed;
 }
 
 .informacion_padre{
@@ -313,11 +314,11 @@ form{
 }
 
 .dino{
-    width: 170px;
+    width: 160px;
 }
 
 .zorrito{
-    width: 170px;
+    width: 160px;
 }
 
 .flechaTop{
