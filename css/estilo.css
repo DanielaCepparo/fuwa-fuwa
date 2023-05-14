@@ -334,6 +334,17 @@ form{
 
 nav{
     width: 460px;
+    margin: 0 auto;
 }
 
+.video1{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+#carouselExampleIndicators{
+    width: 80%;
+}
 }
