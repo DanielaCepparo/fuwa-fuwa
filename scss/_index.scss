@@ -1,0 +1,41 @@
+$fondo_texto: #D8E2DC;
+$color_separacion: #A53860;
+
+.header__logo{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.mx-auto, .d-flex, .justify-content-center{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    #carouselExampleIndicators{
+        margin-top: 20px;
+        width: 700px;
+        .carousel-inner img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
+
+.main__texto{
+    background-color: $fondo_texto;
+    width: 800px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    p{
+        padding: 10px;
+        line-height: 1,2;
+    }
+}
+
+.footer {
+    text-align: center;
+    border-top: $color_separacion 2px solid ;
+}

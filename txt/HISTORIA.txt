@@ -28,11 +28,19 @@
         </nav>
     </header>
     <main>
-        <section class="tituloVideo"><h2>Comienzos en Needle Felting</h2></section>
-        <div class="video1"><iframe width="560" height="315" src="https://www.youtube.com/embed/SYSL5K1P9Cg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+        <section class="section__historia">
+                <div class="img__info"><img src="../img/conejofieltro.jpg" class="imginfo" alt="Conejo de fieltro">
+                </div>
+            <section class="main__historia">
+                <p>Fuwa Fuwa fue una idea que comenzó a tomar forma en inicios del 2022. Tras navegar por Internet descubrí que podía hacer peluches de fieltro, un material económico y fácil de trabajar. Por lo que luego de pensarlo mucho, un día de Junio de 2022 Fuwa Fuwa se hizo realidad. Decidí probar suerte y realizar algunos prototipos. Los compartí en mis redes sociales y pronto mis creaciones comenzaron a recibir mucho interés y pedidos de amigos y conocidos.</p>
+                <p>El fieltro es un tipo de tela que se produce al unir las fibras de lana o de otros materiales a través del proceso de presión y calor, lo que da como resultado un material duradero y resistente. Son juguetes suaves y esponjosos que se crean utilizando este material no tejido y una técnica de costura. Los peluches de fieltro se pueden hacer en una variedad de formas y tamaños, desde pequeños animales hasta personajes de dibujos animados o figuras geométricas. También se pueden personalizar con detalles como bordados, apliques y accesorios para hacerlos únicos y especiales. Son populares entre los niños y adultos debido a su aspecto lindo y atractivo, así como su textura suave y reconfortante.</p>
+            </section>
+                <div class="img__info"><img src="../img/totorofieltro.jpg" class="imginfo" alt="Totoro de fieltro">
+                </div>
+        </section>
         <aside>
             <a href="https://api.whatsapp.com/send/?phone=5492615175600" target="_blank"><img src="../img/logowp.png" class="logoWp" alt="logo whatsapp"></a>
-        </aside>
+        </aside>        
     </main>
     <footer class="footer">
         <h5>@2023 by Daniela Cepparo. Todos los derechos reservados</h5>
