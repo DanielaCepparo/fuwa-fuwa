@@ -1,0 +1,39 @@
+$fondo_texto: #D8E2DC;
+
+.logoWp{
+    width: 100px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+
+.contacto{
+    text-align: center;
+    margin: 20px;
+    .txt__contacto{
+        text-align: center;
+        width: 600px;
+        height: auto;
+        margin: 0 auto;
+        background-color: $fondo_texto;
+        border-radius: 20px;
+    }
+}
+
+form{
+    padding: 20px;
+    text-align: center; 
+    margin: 0 auto;
+    }
+    .formulario{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        .datos{
+            padding: 5px;
+            color: #450920;
+        }
+    }
+
+
+

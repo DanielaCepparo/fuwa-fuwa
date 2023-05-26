@@ -1,0 +1,27 @@
+
+.txt__productos{
+    text-align: center;
+    font-weight: bold;
+}
+
+.producto1, .producto2, .producto3{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+    .dino, .zorrito, .merlina{
+        width: 300px;
+        height: 400px;
+        margin: 10px;
+        border: dashed 2px #A53860;
+    }
+}
+
+.flecha{
+    text-align: center;
+    margin: 30px;   
+    .flechaTop{
+        width: 120px;
+    } 
+}
+
