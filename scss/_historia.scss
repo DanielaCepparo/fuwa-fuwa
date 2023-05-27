@@ -1,29 +1,25 @@
-$fondo_texto: #D8E2DC;
-$color_borde: #A53860;
-
 .section__historia{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-bottom: 95px;
     .img__info{
         margin: 10px;
-        border: dashed 2px $color_borde;
+        border: dashed 2px $color_margen;
         .imginfo{
             width: 400px;
         }
     } 
+
     .main__historia{
-        background-color: $fondo_texto;
+        @include texto-estilo;
         width: 800px;
         height: auto;
-        padding: 10px;
-        margin: 20px;
         text-align: justify;
-        border-radius: 20px;
         p{
             padding: 10px;
             line-height: 1,2;
         }  
-    }   
+    }
 }

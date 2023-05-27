@@ -29,34 +29,70 @@
     </header>
     <main>
         <article class="contacto">
-            <h1>Contacto</h1>
-            <section class="txt__contacto">
-                <p>Envíame un mensaje y lo responderé lo más pronto posible. No dudes en consultar lo que necesites. ¡También puedes escribirme por whatsapp si lo deseas!</p>
-            </section>
-            <section class="formulario">
-                <form class="w-30">
-                    <div class="mb-3">
-                        <label for="nombre" class="form-label">Nombre</label>
-                        <input type="text" id="disabledTextInput" class="form-control" placeholder="Maria Perez">
-                    </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Email*</label>
-                        <input type="email" class="form-control" placeholder="ejemplo@gmail.com">
-                    </div>
-                    <div class="mb-3">
-                        <label for="Mensajes">Mensaje</label>
-                        <div>
-                        <textarea class="box" name="Mensaje" id="" cols="30" rows="10"></textarea>
+                <h1>Contacto</h1>
+                <section class="txt__contacto">
+                    <p>Envíame un mensaje y lo responderé lo más pronto posible. No dudes en consultar lo que necesites. ¡También puedes escribirme por whatsapp si lo deseas!</p>
+                </section>
+                <div class="container"></div>
+                <section class="formulario">
+                    <form class="w-30">
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" id="disabledTextInput" class="form-control" placeholder="Maria Perez">
                         </div>
-                    </div>
-                        <p class="datos">* Datos obligatorios</p>
-                    <button type="submit" class="btn btn-success">Enviar</button>
-                </form>
-            </section>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email*</label>
+                            <input type="email" class="form-control" placeholder="ejemplo@gmail.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="Mensajes">Mensaje</label>
+                            <div>
+                            <textarea class="box" name="Mensaje" id="" cols="30" rows="10"></textarea>
+                            </div>
+                        </div>
+                            <p class="datos">* Datos obligatorios</p>
+                        <button type="submit" class="btn btn-success">Enviar</button>
+                    </form>
+                </section>
+        </article>
+        <section class="faqs">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Accordion Item #1
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Accordion Item #3
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                  </div>
+                </div>
+              </div>
+        </section>
+          </div>
         <aside>
             <a href="https://api.whatsapp.com/send/?phone=5492615175600" target="_blank"><img src="../img/logowp.png" class="logoWp" alt="logo whatsapp"></a>
         </aside>
-    </main>
     <footer class="footer">
         @2023 by Daniela Cepparo. Todos los derechos reservados
     </footer>

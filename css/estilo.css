@@ -1,117 +1,3 @@
-.header__logo {
-  display: flex;
-  justify-content: center;
-  margin: 30px; }
-
-.mx-auto, .d-flex, .justify-content-center {
-  margin-left: auto;
-  margin-right: auto;
-  display: flex; }
-  .mx-auto #carouselExampleIndicators, .d-flex #carouselExampleIndicators, .justify-content-center #carouselExampleIndicators {
-    margin-top: 20px;
-    width: 700px; }
-    .mx-auto #carouselExampleIndicators .carousel-inner img, .d-flex #carouselExampleIndicators .carousel-inner img, .justify-content-center #carouselExampleIndicators .carousel-inner img {
-      max-width: 100%;
-      height: auto; }
-
-.main__texto {
-  background-color: #D8E2DC;
-  width: 800px;
-  height: auto;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 30px;
-  border-radius: 20px; }
-  .main__texto p {
-    padding: 10px;
-    line-height: 1,2; }
-
-.section__historia {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center; }
-  .section__historia .img__info {
-    margin: 10px;
-    border: dashed 2px #A53860; }
-    .section__historia .img__info .imginfo {
-      width: 400px; }
-  .section__historia .main__historia {
-    background-color: #D8E2DC;
-    width: 800px;
-    height: auto;
-    padding: 10px;
-    margin: 20px;
-    text-align: justify;
-    border-radius: 20px; }
-    .section__historia .main__historia p {
-      padding: 10px;
-      line-height: 1,2; }
-
-.txt__productos {
-  text-align: center;
-  font-weight: bold; }
-
-.producto1, .producto2, .producto3 {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  margin-bottom: 20px; }
-  .producto1 .dino, .producto1 .zorrito, .producto1 .merlina, .producto2 .dino, .producto2 .zorrito, .producto2 .merlina, .producto3 .dino, .producto3 .zorrito, .producto3 .merlina {
-    width: 300px;
-    height: 400px;
-    margin: 10px;
-    border: dashed 2px #A53860; }
-
-.flecha {
-  text-align: center;
-  margin: 30px; }
-  .flecha .flechaTop {
-    width: 120px; }
-
-.titulo__video {
-  text-align: center;
-  width: 500px;
-  margin: 0 auto;
-  margin-top: 30px;
-  background-color: #D8E2DC; }
-
-.video1 {
-  display: flex;
-  justify-content: center;
-  margin-top: 25px;
-  margin-bottom: 130px; }
-
-.logoWp {
-  width: 100px;
-  position: fixed;
-  bottom: 40px;
-  right: 40px; }
-
-.contacto {
-  text-align: center;
-  margin: 20px; }
-  .contacto .txt__contacto {
-    text-align: center;
-    width: 600px;
-    height: auto;
-    margin: 0 auto;
-    background-color: #D8E2DC;
-    border-radius: 20px; }
-
-form {
-  padding: 20px;
-  text-align: center;
-  margin: 0 auto; }
-
-.formulario {
-  display: flex;
-  justify-content: center;
-  text-align: center; }
-  .formulario .datos {
-    padding: 5px;
-    color: #450920; }
-
 * {
   margin: 0;
   padding: 0;
@@ -158,3 +44,131 @@ ul {
       ul li a:hover {
         color: #FFE5D9;
         background-color: #A53860; }
+
+.header__logo {
+  display: flex;
+  justify-content: center;
+  margin: 30px; }
+
+.mx-auto, .d-flex, .justify-content-center {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex; }
+  .mx-auto #carouselExampleIndicators, .d-flex #carouselExampleIndicators, .justify-content-center #carouselExampleIndicators {
+    margin-top: 20px;
+    width: 700px; }
+    .mx-auto #carouselExampleIndicators .carousel-inner img, .d-flex #carouselExampleIndicators .carousel-inner img, .justify-content-center #carouselExampleIndicators .carousel-inner img {
+      max-width: 100%;
+      height: auto; }
+
+.main__texto {
+  background-color: #D8E2DC;
+  width: 800px;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 20px; }
+  .main__texto p {
+    padding: 10px;
+    line-height: 1,2; }
+
+.section__historia {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 95px; }
+  .section__historia .img__info {
+    margin: 10px;
+    border: dashed 2px #A53860; }
+    .section__historia .img__info .imginfo {
+      width: 400px; }
+  .section__historia .main__historia {
+    background-color: #D8E2DC;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    width: 800px;
+    height: auto;
+    text-align: justify; }
+    .section__historia .main__historia p {
+      padding: 10px;
+      line-height: 1,2; }
+
+.txt__productos {
+  text-align: center;
+  font-weight: bold; }
+
+.producto1, .producto2, .producto3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 20px; }
+  .producto1 .dino, .producto1 .zorrito, .producto1 .merlina, .producto2 .dino, .producto2 .zorrito, .producto2 .merlina, .producto3 .dino, .producto3 .zorrito, .producto3 .merlina {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border: dashed 2px #A53860; }
+
+.flecha {
+  text-align: center;
+  margin: 30px; }
+  .flecha .flechaTop {
+    width: 120px; }
+
+.titulo__video {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: #D8E2DC; }
+
+.video1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 130px; }
+
+.logoWp {
+  width: 100px;
+  position: fixed;
+  bottom: 40px;
+  right: 40px; }
+
+.container {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "contacto faqs"; }
+  .container .contacto {
+    grid-area: contacto; }
+  .container .faqs {
+    grid-area: faqs; }
+
+.contacto {
+  text-align: center;
+  margin: 20px; }
+  .contacto .txt__contacto {
+    background-color: #D8E2DC;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    margin: 0 auto;
+    width: 600px;
+    height: auto; }
+
+form {
+  padding: 20px; }
+
+.formulario {
+  display: flex; }
+  .formulario .datos {
+    padding: 5px;
+    color: #450920; }
+
+.faqs {
+  width: 300px; }
