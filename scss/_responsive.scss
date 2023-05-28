@@ -1,0 +1,111 @@
+@media (max-width: 400px){
+    
+    header{
+        .logo{
+            width: 350px;
+        }
+        nav{
+            display: flex;
+            width: 400px;
+            margin: 0 auto;
+            ul{
+                width: 100%;
+                padding: 0;
+                margin: 0;
+                flex-direction: row;
+                flex-wrap: wrap;
+                li{     
+                    text-align: center;             
+                    a{
+                        font-size: 0.7rem;
+                    }
+                }
+            }
+        }
+    }
+
+    #carouselExampleIndicators{
+        width: 400px;
+    }
+    
+    .main__texto{
+        width: 340px;
+        margin-bottom: 20px;
+    }
+
+    .footer{
+        font-size: 0.7rem;
+    }
+    
+    .logoWp{
+        width: 50px;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .section__historia{
+        flex-direction: column;
+        margin-bottom: 10px;
+        .img__info{
+            .imginfo{
+                width: 270px;
+            }
+        }
+        .main__historia{
+            width: 340px;
+        }
+    }
+
+    .producto1, .producto2, .producto3{
+        flex-wrap: wrap;
+        .dino, .zorrito, .merlina{
+            width: 180px;
+            height: 250px;
+        }
+    }
+
+    .flecha{ 
+        .flechaTop{
+            width: 70px;
+        } 
+    }
+
+    main{
+        .titulo__video {
+            width: 400px;
+        }
+        .video1{
+            margin-bottom: 20px;
+            iframe{
+                max-width: 380px;
+            }
+        }
+    }
+
+    .container{ 
+        width: 400px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+        "contacto"
+        "faqs";
+
+        .contacto{ 
+            grid-area: contacto; 
+        }
+        .faqs{ 
+            grid-area: faqs; 
+        }
+        form{
+            width: 80%;
+        }
+        
+        .box{
+            width: 100%;
+        }   
+    }
+
+    
+}

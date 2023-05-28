@@ -12,12 +12,12 @@ body {
     font-family: 'Walter Turncoat', cursive;
     color: #450920; }
 
-.footer {
-  font-size: 1.3rem;
-  text-align: center;
+footer {
   border-top: #A53860 2px solid;
   font-family: 'Walter Turncoat', cursive;
-  color: #450920; }
+  color: #450920;
+  font-size: 1.3rem;
+  text-align: center; }
 
 /* ======= BOTONES NAVEGADOR ======= */
 ul {
@@ -67,7 +67,8 @@ ul {
   height: auto;
   text-align: center;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 20px; }
   .main__texto p {
     padding: 10px;
@@ -117,18 +118,19 @@ ul {
   .flecha .flechaTop {
     width: 120px; }
 
-.titulo__video {
-  text-align: center;
-  width: 500px;
-  margin: 0 auto;
-  margin-top: 30px;
-  background-color: #D8E2DC; }
-
-.video1 {
+main {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  margin-top: 25px;
-  margin-bottom: 130px; }
+  text-align: center; }
+  main .titulo__video {
+    margin-top: 30px;
+    width: 500px;
+    background-color: #D8E2DC; }
+  main .video1 {
+    margin-top: 25px;
+    margin-bottom: 100px; }
 
 .logoWp {
   width: 100px;
@@ -170,5 +172,76 @@ form {
     padding: 5px;
     color: #450920; }
 
+h3 {
+  text-align: center;
+  margin: 10px; }
+
 .faqs {
-  width: 300px; }
+  width: 550px; }
+
+.accordion-body {
+  background-color: #FFE5D9; }
+
+@media (max-width: 400px) {
+  header .logo {
+    width: 350px; }
+  header nav {
+    display: flex;
+    width: 400px;
+    margin: 0 auto; }
+    header nav ul {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      header nav ul li {
+        text-align: center; }
+        header nav ul li a {
+          font-size: 0.7rem; }
+  #carouselExampleIndicators {
+    width: 400px; }
+  .main__texto {
+    width: 340px;
+    margin-bottom: 20px; }
+  .footer {
+    font-size: 0.7rem; }
+  .logoWp {
+    width: 50px;
+    bottom: 10px;
+    right: 10px; }
+  .section__historia {
+    flex-direction: column;
+    margin-bottom: 10px; }
+    .section__historia .img__info .imginfo {
+      width: 270px; }
+    .section__historia .main__historia {
+      width: 340px; }
+  .producto1, .producto2, .producto3 {
+    flex-wrap: wrap; }
+    .producto1 .dino, .producto1 .zorrito, .producto1 .merlina, .producto2 .dino, .producto2 .zorrito, .producto2 .merlina, .producto3 .dino, .producto3 .zorrito, .producto3 .merlina {
+      width: 180px;
+      height: 250px; }
+  .flecha .flechaTop {
+    width: 70px; }
+  main .titulo__video {
+    width: 400px; }
+  main .video1 {
+    margin-bottom: 20px; }
+    main .video1 iframe {
+      max-width: 380px; }
+  .container {
+    width: 400px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "contacto" "faqs"; }
+    .container .contacto {
+      grid-area: contacto; }
+    .container .faqs {
+      grid-area: faqs; }
+    .container form {
+      width: 80%; }
+    .container .box {
+      width: 100%; } }

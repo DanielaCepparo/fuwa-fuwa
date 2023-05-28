@@ -6,7 +6,7 @@
 }
 
 .container{ 
-    width: 90%; 
+    width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -44,9 +44,15 @@ form{
         }
     }
 
-    .faqs{
-        width: 300px
-    }
+h3{
+    text-align: center;
+    margin: 10px;
+}
 
+.faqs{
+    width: 550px
+}
 
-
+.accordion-body{
+    background-color: #FFE5D9;
+}
