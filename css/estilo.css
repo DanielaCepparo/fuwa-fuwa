@@ -138,19 +138,6 @@ main {
   bottom: 40px;
   right: 40px; }
 
-.container {
-  width: 90%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "contacto faqs"; }
-  .container .contacto {
-    grid-area: contacto; }
-  .container .faqs {
-    grid-area: faqs; }
-
 .contacto {
   text-align: center;
   margin: 20px; }
@@ -163,21 +150,31 @@ main {
     width: 600px;
     height: auto; }
 
-form {
-  padding: 20px; }
-
-.formulario {
-  display: flex; }
-  .formulario .datos {
-    padding: 5px;
-    color: #450920; }
+.container {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "formulario faqs"; }
+  .container .formulario {
+    grid-area: formulario; }
+    .container .formulario form {
+      padding: 20px;
+      margin: 20px; }
+    .container .formulario .formulario {
+      display: flex; }
+      .container .formulario .formulario .datos {
+        padding: 5px;
+        color: #450920; }
+  .container .faqs {
+    grid-area: faqs;
+    width: 550px; }
 
 h3 {
   text-align: center;
   margin: 10px; }
-
-.faqs {
-  width: 550px; }
 
 .accordion-body {
   background-color: #FFE5D9; }
@@ -199,8 +196,6 @@ h3 {
         text-align: center; }
         header nav ul li a {
           font-size: 0.7rem; }
-  #carouselExampleIndicators {
-    width: 400px; }
   .main__texto {
     width: 340px;
     margin-bottom: 20px; }
@@ -236,9 +231,9 @@ h3 {
     grid-template-rows: 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-    grid-template-areas: "contacto" "faqs"; }
-    .container .contacto {
-      grid-area: contacto; }
+    grid-template-areas: "formulario" "faqs"; }
+    .container .formulario {
+      grid-area: formulario; }
     .container .faqs {
       grid-area: faqs; }
     .container form {

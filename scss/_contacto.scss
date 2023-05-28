@@ -5,23 +5,6 @@
     right: 40px;
 }
 
-.container{ 
-    width: 90%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-    "contacto faqs";
-    .contacto{ 
-        grid-area: contacto; 
-    }
-    .faqs{ 
-        grid-area: faqs; 
-    }
-}
-
 .contacto{
     text-align: center;
     margin: 20px;
@@ -33,24 +16,38 @@
     }
 }
 
-form{
-    padding: 20px;
+.container{ 
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "formulario faqs";
+    .formulario{ 
+        grid-area: formulario;
+        form{
+            padding: 20px;
+            margin: 20px;
+            }
+            .formulario{
+                display: flex;
+                .datos{
+                    padding: 5px;
+                    color: #450920;
+                }
+            }
     }
-    .formulario{
-        display: flex;
-        .datos{
-            padding: 5px;
-            color: #450920;
-        }
+    .faqs{ 
+        grid-area: faqs; 
+        width: 550px
     }
+}
 
 h3{
     text-align: center;
     margin: 10px;
-}
-
-.faqs{
-    width: 550px
 }
 
 .accordion-body{
