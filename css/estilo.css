@@ -18,6 +18,8 @@ footer {
   color: #450920;
   font-size: 1.3rem;
   text-align: center; }
+  footer .logoinstagram {
+    width: 25px; }
 
 /* ======= BOTONES NAVEGADOR ======= */
 ul {
@@ -195,7 +197,9 @@ h3 {
       header nav ul li {
         text-align: center; }
         header nav ul li a {
-          font-size: 0.7rem; }
+          font-size: 0.8rem; }
+  main .col-md-12 {
+    width: 90%; }
   .main__texto {
     width: 340px;
     margin-bottom: 20px; }
@@ -205,6 +209,9 @@ h3 {
     width: 50px;
     bottom: 10px;
     right: 10px; }
+  .logoinstagram {
+    display: block;
+    margin: 0 auto; }
   .section__historia {
     flex-direction: column;
     margin-bottom: 10px; }
@@ -225,6 +232,8 @@ h3 {
     margin-bottom: 20px; }
     main .video1 iframe {
       max-width: 380px; }
+  .contacto .txt__contacto {
+    width: 350px; }
   .container {
     width: 400px;
     grid-template-columns: 1fr;
@@ -235,8 +244,12 @@ h3 {
     .container .formulario {
       grid-area: formulario; }
     .container .faqs {
-      grid-area: faqs; }
+      grid-area: faqs;
+      margin-top: 20px;
+      padding-top: 30px;
+      width: 360px;
+      border-top: #A53860 2px solid; }
     .container form {
-      width: 80%; }
+      width: 90%; }
     .container .box {
       width: 100%; } }
