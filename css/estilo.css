@@ -203,7 +203,7 @@ h3 {
 .accordion-body {
   background-color: #FFE5D9; }
 
-@media (max-width: 400px) {
+@media (max-width: 425px) {
   header .logo {
     width: 350px; }
   header nav {
@@ -223,7 +223,7 @@ h3 {
   main .col-md-12 {
     width: 90%; }
   .main__texto {
-    width: 340px;
+    width: 85%;
     margin-bottom: 20px; }
   .footer {
     font-size: 0.7rem; }
