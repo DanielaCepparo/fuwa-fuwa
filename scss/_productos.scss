@@ -1,6 +1,29 @@
-.txt__productos{
-    text-align: center;
-    font-weight: bold;
+main{
+    .txt__productos{
+        text-align: center;
+        font-weight: bold;
+    }
+    .proximamente{
+        animation-name: efecto_proximamente;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 3s;
+    }
+}
+
+@keyframes efecto_proximamente{
+    0% {
+        font-size: 150%;
+        background-color: #F9DBBD;
+    }
+    50% {
+        font-size: 200%;
+        background-color: #F4ACB7;
+    }
+    100% {
+        font-size: 150%;
+        background-color: #F9DBBD;
+    }
 }
 
 .producto1, .producto2, .producto3{
@@ -13,7 +36,13 @@
         height: 400px;
         margin: 10px;
         border: dashed 2px $color_margen;
+        transition: all 0.5s;
     }
+}
+
+.dino:hover, .zorrito:hover, .merlina:hover{
+    transform: scale(1.1,1.1);
+    border-radius: 20px;
 }
 
 .flecha{
