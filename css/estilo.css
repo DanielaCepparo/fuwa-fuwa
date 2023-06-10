@@ -208,7 +208,7 @@ h3 {
     width: 350px; }
   header nav {
     display: flex;
-    width: 400px;
+    width: 360px;
     margin: 0 auto; }
     header nav ul {
       width: 100%;
@@ -257,7 +257,7 @@ h3 {
   .contacto .txt__contacto {
     width: 350px; }
   .container {
-    width: 400px;
+    width: 360px;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 0px 0px;
